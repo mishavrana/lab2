@@ -1,5 +1,5 @@
 *.sln
 *.DS_Store
 .vs/
-**/bin 
+lab2/bin 
 **/obj
