@@ -3,3 +3,4 @@
 .vs/
 lab2/bin 
 **/obj
+.vscode/

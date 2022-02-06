@@ -7,6 +7,7 @@ class Program
 
         ChooseTask choose = new ChooseTask();
         TaskOne task1 = new TaskOne();
+        TaskTwo task2 = new TaskTwo();
 
         int task = choose.Choose();
 
@@ -16,6 +17,7 @@ class Program
                 task1.Calculate();
                 break;
             case 2:
+                task2.Calculate();
                 break;
             case 3:
                 break;
