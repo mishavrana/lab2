@@ -11,6 +11,7 @@
 				for (int i = 6; i <= num; i++) {
 					answer *= Convert.ToDouble(Math.Pow(i, 2)) / 2;
 				}
+				answer *= 4;
 				Console.WriteLine(
 					Math.Round(answer, 2)
 				);
