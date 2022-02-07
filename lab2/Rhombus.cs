@@ -42,34 +42,32 @@ class Rhombus {
 
         int y1 = top;
         int x1 = middle;
+
+        int y2 = top - 3;
+        int x2 = middle;
         
         Console.SetCursorPosition(x1, y1);
         Console.WriteLine(symbol);
 
-        // UpRight
+        // UpLeft
         for(int i = 0; i < height / 2; i++){
             Console.SetCursorPosition(x1--, y1++);
             Console.WriteLine(symbol);
             
         }
-        //DownRight
+        //UpRight
         for(int i = 0; i < height / 2; i++){
-            Console.SetCursorPosition(x1 ++, y1++);
+            Console.SetCursorPosition(x2++, y2++);
             Console.WriteLine(symbol);
             
         }
 
          //DownLeft
         for(int i = 0; i < height / 2; i++){
-            Console.SetCursorPosition(x1++, y1--);
+            Console.SetCursorPosition(x1++, y1++);
             Console.WriteLine(symbol);
+            
         }
-
-        
-
-
-       
-
-       
+  
     }
 }
