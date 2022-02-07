@@ -5,8 +5,7 @@
     {
         while (true) {
             int num = new UserData().AskToEnter();
-        
-
+            
             if (num >= 6)
             {
              Console.WriteLine("Wrong number format");

@@ -9,6 +9,7 @@ class Program
         TaskOne task1 = new TaskOne();
         TaskTwo task2 = new TaskTwo();
         TaskThree task3 = new TaskThree();
+        Rhombus draw = new Rhombus();
 
         int task = choose.Choose();
 
@@ -23,6 +24,9 @@ class Program
             case 3:
                 task3.Calculate();
                 break;
+            case 4:
+                draw.MainProcess();
+            break;
             default:
                 Console.WriteLine("Something went wrong!");
                 break;
